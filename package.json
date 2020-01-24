@@ -1,0 +1,29 @@
+{
+  "name": "maritime-modern-routing",
+  "version": "1.0.2",
+  "description": "Alternative routing engine Maritime routing, employing up-to-date path-to-regexp style routing.",
+  "main": "index.js",
+  "repository": "t0mgithub/maritime-modern-routing",
+  "scripts": {
+    "format": "prettier --write {**,**/**}/*.{js,md}"
+  },
+  "keywords": [
+    "route",
+    "routing",
+    "maritime"
+  ],
+  "files": [
+    "LICENSE",
+    "Readme.md",
+    "index.js"
+  ],
+  "author": "Tom",
+  "license": "MIT",
+  "homepage": "https://github.com/t0mgithub/maritime-modern-routing#readme",
+  "dependencies": {
+    "path-to-regexp": "^6.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
