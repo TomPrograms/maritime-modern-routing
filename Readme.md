@@ -1,6 +1,6 @@
 # Modern Maritime Routing
 
-[![Maritime NPM Version](https://img.shields.io/npm/v/maritime-modern-routing?color=blue)](https://npmjs.org/package/maritime-standard-routing)
+[![Maritime NPM Version](https://img.shields.io/npm/v/maritime-modern-routing?color=blue)](https://npmjs.org/package/maritime-modern-routing)
 [![Maritime License Badge](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 ![powered by javascript badge](https://img.shields.io/badge/powered%20by-javascript-red)
 [![Maritime Development Badge](https://img.shields.io/badge/engine%20for-maritime-brightgreen)](https://github.com/t0mgithub/maritime)
