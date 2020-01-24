@@ -1,6 +1,6 @@
 {
   "name": "maritime-modern-routing",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Alternative routing engine Maritime routing, employing up-to-date path-to-regexp style routing.",
   "main": "index.js",
   "repository": "t0mgithub/maritime-modern-routing",
