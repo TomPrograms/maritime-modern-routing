@@ -5,41 +5,7 @@
 ![powered by javascript badge](https://img.shields.io/badge/powered%20by-javascript-red)
 [![Maritime Development Badge](https://img.shields.io/badge/engine%20for-maritime-brightgreen)](https://github.com/t0mgithub/maritime)
 
-Routing engine to be used with Maritime to enable modern path-to-regexp style routing. Maritime has been designed to allow different routing engines to be used to compile routes to regexp, to allow users to choose and change the syntax of the routing. A routing engine must contain `toRegex()` to convert a standard path to a regexp and a list of keys and `createParams()` to create an object of URL parameters from keys, original route, requested path and matches from `regexp.match()`.
-
-### Usage
-
-#### toRegex()
-
-toRegex is used to convert a standard route, using up-to-date path-to-regexp style such as `/:username` to a regexp, to be matched in the Maritime router.
-
-```js
-const { toRegex } = require("maritime-modern-routing");
-toRegex("/:username", []);
-// returns:
-// {
-//   regex: /^(?:\/([^\/#\?]+?))[\/#\?]?$/i,
-// keys: [
-//   {
-//     name: 'username',
-//     prefix: '/',
-//     suffix: '',
-//     pattern: '[^\\/#\\?]+?',
-//     modifier: ''
-//   }
-// ]
-// }
-```
-
-#### createParams()
-
-createParams is used to create a list of URL parameters based on the original route and the requested route.
-
-```js
-const { createParams } = require("maritime-modern-routing");
-createParams({ path: "/hello", route: "/:username" });
-// returns: { username: 'hello' }
-```
+Routing engine to be used with Maritime to enable modern path-to-regexp style routing. Maritime has been created to allow different routing engines to be used for different routing syntaxs. An engine must handle creating regexp, matching routes and creating route parameters. All extra data that could be used later (such as route keys or the regexp match data) should be stored on the engine object.
 
 ## License
 
