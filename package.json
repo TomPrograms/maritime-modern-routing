@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "Alternative routing engine Maritime routing, employing up-to-date path-to-regexp style routing.",
   "main": "index.js",
-  "repository": "t0mgithub/maritime-modern-routing",
+  "repository": "TomPrograms/maritime-modern-routing",
   "scripts": {
     "format": "prettier --write {**,**/**}/*.{js,md}"
   },
@@ -19,7 +19,7 @@
   ],
   "author": "Tom",
   "license": "MIT",
-  "homepage": "https://github.com/t0mgithub/maritime-modern-routing#readme",
+  "homepage": "https://github.com/TomPrograms/maritime-modern-routing#readme",
   "dependencies": {
     "path-to-regexp": "^6.1.0"
   },
